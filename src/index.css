@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Hiragino Sans",
+    "Yu Gothic",
+    "Noto Sans JP",
+    sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ===== 日本語学習アプリ レスポンシブ調整 ===== */
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+}
+
+/* PCでは学習領域を少し広くする */
+@media (min-width: 1024px) {
+  main > div {
+    max-width: 1100px !important;
+  }
+}
+
+/* スマホ */
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  main {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  button {
+    min-height: 42px;
+  }
+}
+
+/* 横方向にはみ出さない */
+button {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+
+/* ===== Furigana ===== */
+ruby {
+  ruby-position: over;
+  ruby-align: center;
+}
+
+ruby rt {
+  font-size: 0.5em;
+  line-height: 1;
+  font-weight: 500;
+  color: #5d6775;
+  user-select: none;
+}
+
+/* ===== Example sentence furigana ===== */
+ruby {
+  ruby-position: over;
+  ruby-align: center;
+}
+
+ruby rt {
+  font-size: 0.52em;
+  line-height: 1;
+  font-weight: 500;
+  color: #64748b;
+}

@@ -1,0 +1,11 @@
+NIHONGO STUDY — CURRENT COMBINED VERSION
+
+This archive is based on the latest Stage 11 project, which includes the accumulated edits from earlier stages. It is not a fully finished application.
+
+Reported outstanding items from Stage 11:
+- 319 Japanese sentences × 5 languages = 1,595 missing translations
+- Grammar content completeness and accuracy review
+- JLPT quiz/reading/listening end-to-end verification
+- Production build and mobile/browser testing
+
+Keep this ZIP as a checkpoint. Continue later from this version rather than combining old stages manually.

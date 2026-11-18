@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-18T16:48:44.471Z",
+  "note": "Static audit only. Counts do not establish translation accuracy or live app behavior.",
+  "translatedExampleSentences": {
+    "total": 2625,
+    "filledByLanguage": {
+      "en": 2625,
+      "ne": 2306,
+      "vi": 2306,
+      "my": 2306,
+      "zh": 2306,
+      "ptBR": 2306
+    },
+    "missingByLanguage": {
+      "en": 0,
+      "ne": 319,
+      "vi": 319,
+      "my": 319,
+      "zh": 319,
+      "ptBR": 319
+    }
+  },
+  "externalDataDependencies": {
+    "kanji2136-addon.js": [
+      "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_j%C5%8Dy%C5%8D_kanji&prop=text&format=json&origin=*"
+    ],
+    "vocab8334-addon.js": [
+      "https://raw.githubusercontent.com/evanclan/OpenJLPT/main/data/json/vocab"
+    ],
+    "grammar945-addon.js": [
+      "https://raw.githubusercontent.com/yanzay/jpgram/main/data/grammar_taxonomy_bunpro.tsv"
+    ]
+  },
+  "grammarUsesGenericPlaceholderExamples": false,
+  "grammarUsesEnglishFallbackForOtherLanguages": false
+}
